@@ -4,7 +4,7 @@
 
 | Route | HTTP Verb	 | POST body	 | Description	 |
 | --- | --- | --- | --- |
-| /api/biletAl | `POST` | {'yolcuAdı':'Kerem', 'yolcuSoyadı':'Yılmaz', 'yolcuTC':11112223335, 'krediKartıNo':'1111222233334444' | Bilet alma işlemi. |
+| /api/biletAl | `POST` | {'yolcuAdı':'Kerem', 'yolcuSoyadı':'Yılmaz', 'yolcuTC':11112223335, 'krediKartıNo':'1111222233334444', 'havayolu':{id:1}, 'ucus':{id:6} | Bilet alma işlemi. |
 | /api/biletleriGetir | `GET` | Empty | Bütün bilet bilgilerini listeler. |
 | /api/biletSorgula/{yolcuTC} | `GET` | Empty | TC no ile bilet sorgulama işlemi |
 | /api/biletIptalEt/{id} | `DELETE` | Empty | Bilet id no ile iptal etme işlemi yapar. |
