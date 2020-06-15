@@ -43,3 +43,13 @@
 | api/ucusKaydet | `POST` | { 'kontenjan':150, 'fiyat':250, 'havayolu':{'id':1}, 'rota':{id:1} } | Yeni bir ucus bilgisi tanımlar. |
 | api/ucus/kontenjanDuzenle/{ucusid} | `POST` | Örn: 150 | ucusid ile alınan ucus bilsinin kontenjanını günceller. |
 | api/ucuslariListele | `GET` | Empty | Butun ucus bilgilerini listeler. |
+
+## Örn. Bilet Alma
+![GitHub Logo](https://github.com/sahindogukan/AirlineAPIExam/blob/master/biletAl.PNG)
+![GitHub Logo](https://github.com/sahindogukan/AirlineAPIExam/blob/master/biletAlH2.PNG)
+
+## Örn. Havayolu Sirketleri Listesi
+![GitHub Logo](https://github.com/sahindogukan/AirlineAPIExam/blob/master/havayoluSirketiListele.PNG)
+
+## Örn. Ucus Listesi
+![GitHub Logo](https://github.com/sahindogukan/AirlineAPIExam/blob/master/ucusListele.PNG)
